@@ -9,6 +9,12 @@ body{
 .mg-left-10{
     margin-left: 10px;
 }
+.mg-top-20{
+    margin-top: 20px;
+}
+.mg-top-30{
+    margin-top: 30px;
+}
 .mg-top-10{
     margin-top: 10px;
 }
@@ -24,6 +30,13 @@ body{
 .pd-20{
     padding: 20px;
 }
+.mg-left-10{
+    margin-left: 10px;
+}
+.mg-left-20{
+    margin-right: 20px;
+}
+
 
 .header-container{
     display: flex;
@@ -90,4 +103,48 @@ body{
 
 .container .about{
    text-align: justify;
+}
+
+.experience-container, .education-container{
+    display: flex;
+    /* box-shadow: 0px 1px 1px 0px #979797; */
+}
+
+.experience-container .logo-enterprise, .education-container .logo-ecole{
+    width: 150px;
+    height: 70px;
+}
+.experience-container img, .education-container img{
+    width: 100%;
+    height: 100%;
+}
+.desc-poste a{
+    text-decoration: none;
+    color: #333;
+}
+.desc-poste {
+    font-size: 1.2rem;
+    color: #333;
+}
+.desc-poste .lieu{
+    color: #666;
+}
+
+.competence {
+    display: flex;
+    flex-wrap: wrap;
+}
+.competence span{
+    background-color: green;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
 }
